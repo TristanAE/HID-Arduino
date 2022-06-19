@@ -14,7 +14,7 @@ Pour simuler les touches du clavier, autres que les lettres, la bibliothèque ut
 Il est possible de presser plusieurs touches simultanément puis d’utiliser la fonction releaseAll()
 
 
-b)	Projet 
+b)	Projet réalisé
 
 •	Réaliser un simple keylogger en python
 
@@ -93,7 +93,7 @@ La bibliothèque utilisée est BLEKeyboard. Celle-ci a le même mode de fonction
 Au lieu de connecter la carte avec l’ordinateur par le port USB, nous appairerons les deux par Bluetooth dans les paramètres du PC, une fois l’esp32 allumé. Le nom de l’appareil détecté devrait etre « BLE keyboard ».
 Le programme qui permet le contrôle du clavier ne s’exécutera qu’une fois que le module Bluetooth se sera connecté à un ordinateur.
 
-b)	Projet
+b)	Projet réalisé
 
 Un projet simple et rapide est de faire un programme qui éteint très rapidement un ordinateur connecté à l’esp32. A chaque fois que cet ordinateur activera son Bluetooth et que l’esp32 sera à proximité, allumé également, alors ils s’appaireront automatiquement et la carte exécutera son programme.
 Il suffit de presser en boucle la touche ALT +F4 puis de cliquer ENTER et enfin de relâcher. Cela fermera les pages jusqu’à arriver sur le bureau ce qui proposera d’éteindre le PC. On peut également utiliser la commande shutdown.
